@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste com imagens</title>
+</head>
+<body>
+    <h1>Testando carga de imagens</h1>
+    <p>Abaixo você vai ver uma imagem que está na mesma pasta</p>
+    <img src="HTML 5.png" alt=" logo html 5 "> 
+    <!-- SRC sourcer, pasta em que está localizada alt de alternative para deficientes visuais  -->
+    <!--Carregar imagem de links copia o endereço da imagem e não precisa salvar seleciona img e no src cola o link-->
+    <!-- FAVICON é a inserção do icone no favoritos e não no corpo do seu código para desenhar é o site favicon para pegar pronto é o site icon archive-->
+     <!--Para inserir vai em cima do title no cabeçalho e seleciona link favicon seleciona o caminho assim como imagem -->
+     <!--NEGRITO E ITALICO DA FORMA CORRETA a tag b não tem sentido-->
+     <P>Nessa frase temos um <b>NEGRITO usando a tag B </b></P>
+     <p>Nesta frase temos um <strong>termo em destaque</strong> utilizando a forma correta strong </p>
+     <p>Nesta frase temos um <i>Termo em italico </i>usando a tag i não semantica  </p>
+     <p> <EM> Nesta frase temos um termo em destaque em enfase usando a tag EN semantica </EM> </p> 
+     <h2>Texto marcado </h2>
+     <p>Podemos criar também um texto marcado usando a tag mark </p>
+        <p>Este é um <mark>texto marcado</mark> usando a tag mark</p>
+        <p>Podemos alterar também a cor porém é em CSS como exemplo <mark style="background-color: rgb(0, 195, 255);">CSS NO HTML ainda não chegamos lá </mark></p>
+        <!--<p>Para criar um seletor dentro do código em baixo de titlle iremos colocar style mark {background- color e seleciona a cor  ou seja, na mesma pagina quando digitar mark ele irá entender a cor já.}-->
+    <p>Podemos criar também um texto pequeno como <small> pequeno no contrato </small></p>   
+    <h1>Texto deletado</h1>
+    <p>Podemos marcar <del>um texto como excluido, indicando que ele deve ser lido mas não considerado</del> </p>
+    <h2>Texto inserido </h2>
+    <p>Podemos marcar um <ins> texto como isnerido para dar enfase e indicar que ele foi adicionado</ins> depois.</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo <sup> x20+3</sup> </p>
+
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo <sub> H2O</sub> </p>
+
+    <H1>Outras formatações</H1>
+    <h2>código fonte</h2>
+    <p>o comando <code>document.geteElement by id (1'teste) </
+    <!--CODE então organiza e caso queria organizar como o código você coloca o pré antes do code-->
+    <pre><code> num = int 
+        (input(digite um numero)) if num %2 = 0 </code></pre>
+    <!-- É codigo fonte e pré formatada- Se guia pelas quebras de linhas -->
+
+    <!--CITAÇÕES coloca o Q pois quando coloca somente aspas não tem sentido no código -->
+    <H2>Citações</H2>
+    <p> Como diria o pai de um amigo: <q>o computador é um burro muito rapido</q> </p>
+    <h2>Citações completas</h2>
+    <p>Segundo Jeff Noble em seu livro html para leigos </p>
+    <blockquote  cite="https://www.amazon.com.br/HTML-para-Leigos-Jeff-Noble/dp/8545200012" >
+        A diferença entre elementos online e um bloco de texto é importante. Os elementos HTML neste capitulo descrevem os blocos de texto 
+    </blockquote>
+    <!--O site saberá que está referenciando a frase com o código cite -->
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="hyper text markup linguague ">HTML</abbr> <abbr title="Hypertextmarkuplinguage">CSS </abbr>  e estou adorando </p>
+    <!--Quando passa o mouse aparece o titlle escrito por você-->
+    <h2>Texto invertido </h2>
+    <p><bdo dir="ltr">Estou aprendendo a criar coisas em HTML  </bdo></p>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML </bdo></p>
+    <H1>Listas </H1>
+    <h2>Listas ordenadas - A ordem faz diferença </h2>
+    <ol>
+        <li>Acordar </li>
+        <li>Meditar</li>
+        <li>Leitura</li> 
+        <li>Estudos </li>
+    </ol>
+    <!--OL precisa colocar no inicio e fim, li não... Utilizando numerações como acima -->
+
+    <ol type="1" start="4">
+        <li>Acordar </li>
+        <li>Meditar</li>
+        <li>Leitura</li> 
+        <li>Estudos </li>
+    </ol>
+    <ol type="A">
+        <li>Acordar </li>
+        <li>Meditar</li>
+        <li>Leitura</li> 
+        <li>Estudos </li>
+    </ol>
+    <ol type="a">
+        <li>Acordar </li>
+        <li>Meditar</li>
+        <li>Leitura</li> 
+        <li>Estudos </li>
+    </ol>
+    <ol type="I">       
+        <li>Acordar </li>
+        <li>Meditar</li>
+        <li>Leitura</li> 
+        <li>Estudos </li>               
+    </ol>
+    <h2>Listas não ordenadas </h2>
+    <ul
+        <li>Acordar </li>
+        <li>Meditar</li>
+        <li>Leitura</li> 
+        <li>Estudos </li>
+    </ul>
+    <h2>Listas não ordenadas </h2>
+    <ul type="disc"> 
+        <li>Acordar </li>
+        <li>Meditar</li>
+        <li>Leitura</li> 
+        <li>Estudos </li>
+    </ul>
+    <ul type="circle" > 
+        <li>Acordar </li>
+        <li>Meditar</li>
+        <li>Leitura</li> 
+        <li>Estudos </li>
+    </ul>
+    <h2>Juntando listas versão 1.0 </h2>
+    <ol>
+        <li>Antigas </li>
+        <ol type="1">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+        <li>Novas </li>
+        <ol type="a" start="2" >
+            <li>Python</li>
+            <li>Java</li>
+            <li>C#</li>
+        </ol>
+
+    </ol>
+    <h2> Meus jogos favoritos </h2>
+    <ol>
+        <li> Nintendo </li>
+        <ul>
+        <li>Xbox </li></ul>
+        <li>Playstation </li>
+    </ol>
+    <h2>Juntando listas versão 2.0</h2>
+    <ul>
+        <li>Antigas </li>
+        <ul type="disc">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <li>Novas </li>
+        <ul type="circle" start="2">
+            <li>Python</li>
+            <li>Java</li>
+            <li>C#</li>
+        </ul>
+    <h2>Lista de definição </h2>
+    <dl>
+        <dt>Termo </dt>
+        <dd>Descrição </dd>
+        <dt>HTML</dt>
+        <dd>Hyper Text Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para web</dd>
+
+    </dl>
+
+
+
+
+
+</body>
+</html>
